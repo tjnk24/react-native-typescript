@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "es5",
+    "jsx": "react-native",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": false,
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "removeComments": false,
+    "resolveJsonModule": true,
+    "strictNullChecks": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "lib": ["dom", "es2018"],
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+        // "__store": ["./static/client/store.ts"],
+        // "__routes": ["./static/client/routes.ts"],
+        // "__index": ["./static/client/index.tsx"],
+        // "__actions": ["./static/client/actions.ts"],
+        // "__reducers*": ["./static/client/reducers/index.ts"],
+
+        // "__api/*": ["./static/client/api/*"],
+        // "__config/*": ["./static/client/config/*"],
+        // "__pages/*": ["./static/client/pages/*"],
+        // "__loaders/*": ["./static/client/loaders/*"],
+        // "__selectors/*": ["./static/client/selectors/*"],
+        // "__services/*": ["./static/client/services/*"],
+        // "__types/*": ["./static/client/types/*"],
+        // "__components/*": ["./static/client/components/*"],
+        // "__utils/*": ["./static/client/utils/*"],
+        // "__reducers/*": ["./static/client/reducers/*"],
+        "*": ["node_modules/*", "static/*", "*"]
+    },
+    "typeRoots": ["typings/**/*.d.ts", "node_modules/@types"],
+    // "plugins": [
+    //     {
+    //         "transform": "ts-transformer-keys/transformer"
+    //     }
+    // ]
+  },
+  "include": [
+    "static/client",
+    "typings/**/*.d.ts",
+    "node_modules/@types"
+],
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js"
+  ]
+}
