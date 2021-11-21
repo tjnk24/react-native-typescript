@@ -16,6 +16,7 @@
   "devDependencies": {
     "@babel/core": "7.12.9",
     "@babel/runtime": "7.12.5",
+    "@react-native-community/cli": "6.2.0",
     "@types/react-native": "0.66.4",
     "@typescript-eslint/eslint-plugin": "5.4.0",
     "@typescript-eslint/parser": "5.4.0",
@@ -30,6 +31,7 @@
     "eslint-plugin-react-hooks": "4.3.0",
     "eslint-plugin-react-native": "3.11.0",
     "metro-react-native-babel-preset": "0.66.2",
+    "react-native-eject": "0.1.2",
     "react-native-svg-transformer": "0.14.3",
     "typescript": "4.4.4"
   },
