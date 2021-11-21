@@ -1,6 +1,6 @@
-rnDebuggerWinX64
-android
-ios
+android/
+ios/
+rnDebuggerWinX64/
 
 # OSX
 #
