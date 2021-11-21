@@ -1,4 +1,6 @@
 rnDebuggerWinX64
+android
+ios
 
 # OSX
 #
@@ -51,6 +53,3 @@ buck-out/
 
 # Bundle artifact
 *.jsbundle
-
-# CocoaPods
-/ios/Pods/

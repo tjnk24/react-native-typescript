@@ -6,7 +6,8 @@
     "android": "npx react-native run-android ",
     "ios": "npx react-native run-ios",
     "start": "npx react-native start",
-    "lint": "npx eslint . --ext .ts,.tsx ./"
+    "lint": "npx eslint . --ext .ts,.tsx ./",
+    "eject-and-link": "npx react-native eject && npx react-native link react-native-svg"
   },
   "dependencies": {
     "react": "17.0.2",
