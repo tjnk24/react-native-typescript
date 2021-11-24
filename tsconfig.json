@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
+    "noEmitOnError": true,
     "strict": true,
+    "sourceMap": true,
     "target": "es5",
     "jsx": "react-native",
     "module": "ESNext",
@@ -37,12 +39,10 @@
         // "__reducers/*": ["./static/client/reducers/*"],
         "*": ["node_modules/*", "static/*", "*"]
     },
-    "typeRoots": ["typings/**/*.d.ts", "node_modules/@types"],
-    // "plugins": [
-    //     {
-    //         "transform": "ts-transformer-keys/transformer"
-    //     }
-    // ]
+    "typeRoots": [
+      "typings/**/*.d.ts",
+      "node_modules/@types"
+    ],
   },
   "include": [
     "index.ts",
